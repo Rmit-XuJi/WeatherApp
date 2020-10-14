@@ -1,0 +1,15 @@
+.DailyForecast{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.DailyForecast > label{
+    flex: 1;
+    -webkit-flex: 1;
+}
+.DailyForecast > div{
+    flex: 1;
+    -webkit-flex: 1;
+}

@@ -1,0 +1,27 @@
+.CityBrief{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+}
+
+.CityBrief > div {
+    flex: 1;
+    -webkit-flex: 1;
+}
+.CityBrief > img {
+    flex: 0.5;
+    -webkit-flex: 0.5;
+}
+.cityLink{
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+
+.cityLink:hover{
+    color: lightgreen;
+    cursor: pointer;
+}

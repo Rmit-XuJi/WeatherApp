@@ -1,0 +1,15 @@
+.OtherCities{
+    flex: 1;
+    -webkit-flex: 1;
+    flex-direction: column;
+    display: -webkit-flex;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+
+    padding-bottom: 30px;
+    margin: 30px 0 30px 0;
+    max-height: 200px;
+}
+

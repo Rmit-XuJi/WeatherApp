@@ -1,0 +1,21 @@
+.city{
+    flex: 1;
+    -webkit-flex: 1;
+
+    align-items: center;
+}
+
+.city_name{
+    text-align: center;
+    color: white;
+}
+
+.city_name::after{
+    position: relative;
+    content:"";
+    display:block;
+    height:0px;
+    background-color: white;
+    border: 1.5px solid white;
+    margin: 0px 40% 0px 40%;
+}

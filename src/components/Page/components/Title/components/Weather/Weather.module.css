@@ -1,0 +1,39 @@
+.weather{
+    flex: 1;
+    -webkit-flex: 1;
+
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: center;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.weather > span {
+    font-size: 30px;
+}
+
+.degree{
+    font-size: 50px;
+    color:white;
+}
+
+.humidityWind{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.humidity{
+    padding-right: 20%;
+    text-align: center;
+}
+
+.wind{
+    padding-left: 20%;
+    border-left: 2px solid gray;
+
+    text-align: center;
+}
